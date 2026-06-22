@@ -6,8 +6,8 @@
 id: fhir.ipslansys
 canonical: http://lamansys.com/hsi/fhir/ipslansys
 name: IpsLAnsys
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: Guía ISP Argentina basada en Core Ar
+description: Guía de implementación de FHIR para la Interoperabilidad de Salud Pública en Argentina basada en Core Ar y para uso proyecto Lansys
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html

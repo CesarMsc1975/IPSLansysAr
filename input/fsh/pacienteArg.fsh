@@ -4,7 +4,7 @@ Alias: $MothersFamily = http://hl7.org/fhir/StructureDefinition/humanname-mother
 
 Profile: PacienteArg
 Id: PacienteArg
-Parent: $Patient-uv-ips
+Parent: Patient
 Title: "Paciente Argentino"
 Description: "Perfil de Paciente Argentino definido en la CORE AR y dependiente de perfil IPS-UV"
 * ^status = #draft

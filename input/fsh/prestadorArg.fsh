@@ -26,7 +26,7 @@ Description: "Perfil de Registro de Profesional descrito en CORE AR (REFEPS) y d
 * identifier[DocumentoUnico].use = #official (exactly)
 
 * identifier[DocumentoUnico].type = $v2-0203#NI
-* identifier[DocumentoUnico].type from $v2-0203 (extensible)
+* identifier[DocumentoUnico].type from http://hl7.org/fhir/ValueSet/identifier-type (extensible)
 * identifier[DocumentoUnico].system 1..
 * identifier[DocumentoUnico].system = "http://www.renaper.gob.ar/dni" (exactly)
 * identifier[DocumentoUnico].system ^short = "RENAPER"
@@ -36,7 +36,7 @@ Description: "Perfil de Registro de Profesional descrito en CORE AR (REFEPS) y d
 * identifier[DocumentoUnico].assigner.display = "RENAPER" (exactly)
 * identifier[REFEPSid].use = #usual (exactly)
 * identifier[REFEPSid].type = $v2-0203#AC
-* identifier[REFEPSid].type from $v2-0203 (extensible)
+* identifier[REFEPSid].type from http://hl7.org/fhir/ValueSet/identifier-type (extensible)
 * identifier[REFEPSid].system 1..
 * identifier[REFEPSid].system = "http://refeps.msal.gob.ar"
 * identifier[REFEPSid].value 1.. MS

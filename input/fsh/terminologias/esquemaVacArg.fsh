@@ -423,3 +423,24 @@ Description: "Esquemas de Vacunacion para NOMIVAC"
 * ^language = #es-AR
 
 * codes from system NomivacEsquemaCS
+
+ValueSet: IdentificadoresProfVS
+Id: IdentificadoresProfVS
+Title: "Identificadores de Profesionales"
+Description: "Identificadores de Profesionales para NOMIVAC"
+* ^url = "http://fhir.msal.gob.ar/core/ValueSet/IdentificadoresProfVS"
+* ^version = "0.5.0"
+* ^name = "IdentificadoresProfVS"
+* ^title = "Identificadores de Profesionales para NOMIVAC"
+* ^status = #active
+* ^date = "2021-07-18T16:43:39-03:00"
+* ^publisher = "DNSIS - Ministerio de Salud - Rep. Argentina / HL7 Argentina"
+* ^contact[0].name = "DNSIS - Ministerio de Salud - Rep. Argentina / HL7 Argentina"
+* ^contact[=].telecom[0].system = #url
+* ^contact[=].telecom[=].value = "https://www.argentina.gob.ar/salud/digital"
+* ^contact[=].telecom[+].system = #email
+* ^contact[=].telecom[=].value = "privadadngiss@msal.gov.ar"
+* ^experimental = false
+* ^language = #es-AR
+
+* codes from system NomivacEsquemaCS
